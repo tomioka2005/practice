@@ -27,7 +27,7 @@
 ---------------------------------------------------------------------------*/
 :root {
 
-	--primary-color: #0a0ed0;			/*テンプレートの背景色*/
+	--primary-color: #85e0fcf6;			/*テンプレートの背景色*/
 	--primary-inverse-color: #fff;		/*上のprimary-colorの対として使う色*/
 
 	--global-space: 3vw;				/*サイト内の余白の一括管理用。画面幅100%＝100vwです。*/
@@ -442,3 +442,20 @@ footer {
 	.pc {display: block;}
 
 	}/*追加指定ここまで*/
+
+.sky1 {
+  background-image: url("../images/3.png"); /* パスは画像の保存場所に合わせて調整 */
+  background-size: cover; /* 画像を要素全体にフィットさせる */
+  background-repeat: no-repeat; /* 繰り返しなし */
+  background-position: center; /* 中央に配置 */
+  padding: 40px; /* 内容が見えるように余白を追加 */
+  color: #fff; /* 背景が暗い場合は文字色を白に */
+}
+.sky2 {
+  background-image: url("../images/2.png"); /* パスは画像の保存場所に合わせて調整 */
+  background-size: cover; /* 画像を要素全体にフィットさせる */
+  background-repeat: no-repeat; /* 繰り返しなし */
+  background-position: center; /* 中央に配置 */
+  padding: 40px; /* 内容が見えるように余白を追加 */
+  color: #fff; /* 背景が暗い場合は文字色を白に */
+}
