@@ -27,7 +27,8 @@
 ---------------------------------------------------------------------------*/
 :root {
 
-	--primary-color: #85e0fcf6;			/*テンプレートの背景色*/
+
+	--primary-color: #56d8fff6;			/*テンプレートの背景色*/
 	--primary-inverse-color: #fff;		/*上のprimary-colorの対として使う色*/
 
 	--global-space: 3vw;				/*サイト内の余白の一括管理用。画面幅100%＝100vwです。*/
@@ -400,7 +401,14 @@ footer {
 
 /*PAGE TOP（↑）設定
 ---------------------------------------------------------------------------*/
-.pagetop-show {display: block;}
+.pagetop-show {display: block;
+}
+
+.pagetop a {
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+}
 
 /*ボタンの設定*/
 .pagetop a {
@@ -411,7 +419,7 @@ footer {
 	color: #fff;		/*文字色*/
 	background: rgba(255,255,255,0.2);	/*背景色。255,255,255は白の事で0.2は色が20%出た状態。*/
 	width: 60px;		/*幅*/
-	line-height: 60px;	/*高さ*/
+	line-height:60px;	/*高さ*/
 }
 
 
