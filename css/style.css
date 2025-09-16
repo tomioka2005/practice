@@ -451,6 +451,27 @@ footer {
 
 	}/*追加指定ここまで*/
 
+.item { /*sns誘導*/
+	position: absolute;
+    top: 1720px;
+    left: 485px;
+	display: flex;
+    gap: 20px;
+}
+
+.item1 { /*賞*/
+	position: absolute;
+    top: 1660px;
+    left: 740px;
+	display: flex;
+    gap: 30px;
+}
+
+.fancy {/*見出しフォント*/
+  font-family: 'Caveat' sans-serif;
+  font-style: italic;
+}
+
 .sky1 {
   background-image: url("../images/3.png"); /* パスは画像の保存場所に合わせて調整 */
   background-size: cover; /* 画像を要素全体にフィットさせる */
