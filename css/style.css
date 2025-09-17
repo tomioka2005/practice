@@ -453,16 +453,83 @@ footer {
 
 .item { /*sns誘導*/
 	position: absolute;
-    top: 1720px;
-    left: 485px;
+    top: 2480px;
+    left: 235px;
 	display: flex;
     gap: 20px;
 }
-
-.item1 { /*賞*/
+.item8 { /*RACソーシャルメディア*/
+	position: absolute;
+    top: 2400px;
+    left: 252px;
+	display: flex;
+    gap: 30px;
+}
+.item9 { /*RACスマートフォンアプリ*/
+	position: absolute;
+    top: 2400px;
+    left: 912px;
+	display: flex;
+    gap: 30px;
+}
+.item10 { /*アプリアイコン*/
+	position: absolute;
+    top: 2420px;
+    left: 842px;
+	display: flex;
+    gap: 30px;
+}
+.item11 { /*ダウンロード*/
+	position: absolute;
+    top: 2480px;
+    left: 812px;
+	display: flex;
+    gap: 30px;
+}
+.item1 { /*サービス賞*/
 	position: absolute;
     top: 1660px;
     left: 740px;
+	display: flex;
+    gap: 30px;
+}
+.item2 { /*師玉サービス*/
+	position: absolute;
+    top: 2150px;
+    left:820px;
+}
+.item3 { /*ホーム賞*/
+	position: absolute;
+    top: 2230px;
+    left: 380px;
+	display: flex;
+    gap: 60px;
+}
+.item4 { /*ホーム賞文章*/
+	position: absolute;
+    top: 2310px;
+    left: 350px;
+	display: flex;
+    gap: 30px;
+}
+.item5 { /*ホーム賞文章*/
+	position: absolute;
+    top: 2330px;
+    left: 352px;
+	display: flex;
+    gap: 30px;
+}
+.item6 { /*ホーム賞文章*/
+	position: absolute;
+    top: 2310px;
+    left: 530px;
+	display: flex;
+    gap: 30px;
+}
+.item7 { /*ホーム賞文章*/
+	position: absolute;
+    top: 2330px;
+    left: 502px;
 	display: flex;
     gap: 30px;
 }
