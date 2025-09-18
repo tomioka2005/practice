@@ -533,6 +533,20 @@ footer {
 	display: flex;
     gap: 30px;
 }
+.item12 { /*RAC賞文章*/
+	position: absolute;
+    top: 2310px;
+    left: 690px;
+	display: flex;
+    gap: 30px;
+}
+.item13 { /*RAC賞文章*/
+	position: absolute;
+    top: 2330px;
+    left: 662px;
+	display: flex;
+    gap: 30px;
+}
 
 .fancy {/*見出しフォント*/
   font-family: 'Caveat' sans-serif;
@@ -559,6 +573,23 @@ footer {
 
 .sky3 {
   background-image: url("../images/4.png"); /* パスは画像の保存場所に合わせて調整 */
+  background-size: cover; /* 画像を要素全体にフィットさせる */
+  background-repeat: no-repeat; /* 繰り返しなし */
+  background-position: center; /* 中央に配置 */
+  padding: 40px; /* 内容が見えるように余白を追加 */
+  color: #fff; /* 背景が暗い場合は文字色を白に */
+}
+
+.sky4 {
+  background-image: url("../images/Avion_arco_iris_muralesyvinilos_26331079__XL.jpg"); /* パスは画像の保存場所に合わせて調整 */
+  background-size: cover; /* 画像を要素全体にフィットさせる */
+  background-repeat: no-repeat; /* 繰り返しなし */
+  background-position: center; /* 中央に配置 */
+  color: #fff; /* 背景が暗い場合は文字色を白に */
+}
+
+.sky5 {
+  background-image: url("../images/Plane-flight-sky-clouds-sunset_2560x1440.jpg"); /* パスは画像の保存場所に合わせて調整 */
   background-size: cover; /* 画像を要素全体にフィットさせる */
   background-repeat: no-repeat; /* 繰り返しなし */
   background-position: center; /* 中央に配置 */
